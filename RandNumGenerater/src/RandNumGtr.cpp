@@ -497,7 +497,7 @@ LRESULT CALLBACK WndProc(HWND hWnd, UINT message, WPARAM wParam, LPARAM lParam)
                 break;
             case IDC_OPENSRC:
                 ShellExecute(NULL, L"open",
-                    L"https://github.com/Liu-PengHui/C_or_CPP_Projects/blob/main/RandNumGenerater3.2/src/RandNumGtr.cpp",
+                    L"https://github.com/Liu-PengHui/C_or_CPP_Projects/blob/main/RandNumGenerater/src/RandNumGtr.cpp",
                     NULL, NULL, SW_SHOWNORMAL);
                 break;
             default:
